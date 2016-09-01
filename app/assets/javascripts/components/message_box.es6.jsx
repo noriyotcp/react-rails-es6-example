@@ -18,6 +18,7 @@ class MessageBox extends React.Component {
     return (
       <div className="messageBox">
         {messageItems}
+        <MessageForm />
       </div>
     );
   }
