@@ -6,7 +6,7 @@ class MessagesController < ApplicationController
 
   def create
     message = Message.new(create_params)
-    if message
+    if message.save
       render json: message, status: :created
     else
       render json: message, status: :unproccessable_entity
