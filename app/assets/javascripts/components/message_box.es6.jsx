@@ -1,11 +1,7 @@
 class MessageBox extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {messages: [
-      { id: 1, user: 'Tom', text: 'Good morning' },
-      { id: 2, user: 'John', text: 'Good afternoon' },
-      { id: 3, user: 'Emily', text: 'Good evening' }
-    ]};
+    this.state = { messages: this.props.messages };
     this.handleMessageSubmit = this.handleMessageSubmit.bind(this);
   }
 
