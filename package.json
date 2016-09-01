@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "react-rails-es6-example",
+  "version": "1.0.0",
+  "description": "== README",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "browserify-incremental": "^3.1.1"
+  }
+}
